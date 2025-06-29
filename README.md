@@ -1,5 +1,8 @@
 📌   Proje Raporu
 
+Proje Açıklaması ve Nasıl Çalıştığı
+Bu proje, mağazalardaki ürün stok seviyelerini takip eden bir sistemdir. Amaç, kritik seviyenin altına düşen ürünleri tespit etmek ve bu ürünleri Fake Store API ile eşleştirerek otomatik sipariş oluşturmaktır. Sistem, ürünleri bellek içi (in-memory) tutar ve HTTP üzerinden API istekleriyle çalışır.
+
  🔧 Kullanılan Teknolojiler
 - Backend:  .NET 8  Web API
  - ORM: Entity Framework Core
@@ -12,10 +15,6 @@ Proje, DDD prensiplerine uygun şekilde inşa edilmiştir. `Domain`, `Applicatio
  - Application  katmanı, servis arayüzleri ve iş mantığı uygulamalarını içerir.
  - Infrastructure  katmanı, veritabanı erişimi ve dış kaynaklara bağlanmak için kullanılır.
  - WebAPI  katmanı, API endpoint’lerini barındırır ve HTTP taleplerini karşılar.
-
-
-Proje Açıklaması ve Nasıl Çalıştığı
-Bu proje, mağazalardaki ürün stok seviyelerini takip eden bir sistemdir. Amaç, kritik seviyenin altına düşen ürünleri tespit etmek ve bu ürünleri Fake Store API ile eşleştirerek otomatik sipariş oluşturmaktır. Sistem, ürünleri bellek içi (in-memory) tutar ve HTTP üzerinden API istekleriyle çalışır.
 
 
 API Uç Noktalarının Örnek İstek/Yanıtları
