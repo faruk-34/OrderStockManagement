@@ -6,7 +6,6 @@ Bu proje, mağazalardaki ürün stok seviyelerini takip eden bir sistemdir. Ama�
  🔧 Kullanılan Teknolojiler
 - Backend:  .NET 8  Web API
  - ORM: Entity Framework Core
-- Veritabanı: Microsoft SQL Server
 - Mimari: Domain-Driven Design (DDD) yaklaşımıyla
 
 📐 Tasarım
